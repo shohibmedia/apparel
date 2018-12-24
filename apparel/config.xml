@@ -7,7 +7,7 @@
  
   <!-- versionCode is optional and Android only -->
  
-  <name>Konversi Lengkap</name>
+  <name>Apparel</name>
  <platform name="android">
  	<icon src="res/images/icon/ldpi.png" density="ldpi"/>
  	<icon src="res/images/icon/mdpi.png" density="mdpi"/>
