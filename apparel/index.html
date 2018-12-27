@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Proyek</title>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/font_awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/onsenui.min.css">
+  <link rel="stylesheet" href="css/onsen-css-components.min.css">
+  <script src="js/onsenui.min.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+
+  <ons-page>
+    <ons-toolbar>
+      <div class="center">Apparel</div>
+    </ons-toolbar>
+
+    <ons-tabbar swipeable position="auto">
+      <ons-tab page="home.html" label="Home" icon="ion-home, material:md-home" active>
+      </ons-tab>
+      <ons-tab page="transaksi.html" label="Transaksi" icon="md-swap-vertical-circle" active-icon="md-swap-vertical-circle">
+      </ons-tab>
+      <ons-tab page="kontak.html" label="Kontak" icon="md-comment" active-icon="md-comment">
+      </ons-tab>
+      <ons-tab page="tentang.html" label="Tentang" icon="md-info" active-icon="md-info">
+      </ons-tab>
+    </ons-tabbar>
+  </ons-page>
+
+  <template id="home.html">
+    <ons-page id="home">
+      <p style="text-align: center;">
+        Ini Halaman Home yang isinya katalog film
+      </p>
+      <div style="height: 200px; padding: 1px 0 0 0;">
+        <div class="card card--material">
+          <div class="card__title card--material__title">Katalog Baju</div>
+          <div class="card__content card--material__content">
+            <table>
+              <tr class="col-md-6">
+                <td>
+                  <img src="res/images/icon/ldpi.png" width="59%">
+                </td>
+                <td>
+                  <img src="res/images/icon/ldpi.png" width="59%">
+                </td>
+                <td>
+                  <img src="res/images/icon/ldpi.png" width="59%">
+                </td>
+                <td>
+                  <img src="res/images/icon/ldpi.png" width="59%">
+                </td>
+
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </ons-page>
+  </template>
+
+  <template id="transaksi.html">
+    <ons-page id="transaksi">
+      <div class="card card--material">
+        <div class="card__title card--material__title">Pesan Pakaian/Baju</div>
+      </div>
+      <div class="card card--material">
+        <div class="card__content card--material__content">
+          <div style="text-align: center; margin-top: 30px;">
+            <p>
+              <ons-input id="xaxa" modifier="underbar" placeholder="xaxx" float></ons-input>
+            </p>
+            <p>
+              <ons-input id="xaxax" modifier="underbar" type="text" placeholder="xaa" float></ons-input>
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </ons-page>
+  </template>
+  <template id="kontak.html">
+    <ons-page id="kontak">
+      <p style="text-align: center;">
+        Hubungi pemjual/pemjahit
+      </p>
+    </ons-page>
+  </template>
+  <template id="tentang.html">
+    <ons-page id="tentang">
+      <p style="text-align: center;">
+        Halaman tentang
+      </p>
+    </ons-page>
+  </template>
+</body>
+</html>
